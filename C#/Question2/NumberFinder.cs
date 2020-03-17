@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Question2
 {
@@ -21,6 +22,7 @@ namespace Question2
                 if (CheckNumber(numberToCheckNext))
                 {
                     targetNumbers.Add(numberToCheckNext);
+                    // Console.WriteLine(numberToCheckNext);
                     numberCount++;
                 }
     
