@@ -1,0 +1,6 @@
+C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\SGIProgrammerEvaluation\bin\Debug\SGIProgrammerEvaluation.exe
+C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\SGIProgrammerEvaluation\bin\Debug\SGIProgrammerEvaluation.pdb
+C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\SGIProgrammerEvaluation\obj\Debug\SGIProgrammerEvaluation.csprojAssemblyReference.cache
+C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\SGIProgrammerEvaluation\obj\Debug\SGIProgrammerEvaluation.csproj.CoreCompileInputs.cache
+C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\SGIProgrammerEvaluation\obj\Debug\SGIProgrammerEvaluation.exe
+C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\SGIProgrammerEvaluation\obj\Debug\SGIProgrammerEvaluation.pdb

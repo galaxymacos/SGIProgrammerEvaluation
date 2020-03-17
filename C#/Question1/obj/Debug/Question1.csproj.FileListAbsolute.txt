@@ -1,0 +1,6 @@
+C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\Question1\bin\Debug\Question1.exe
+C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\Question1\bin\Debug\Question1.pdb
+C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\Question1\obj\Debug\Question1.csprojAssemblyReference.cache
+C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\Question1\obj\Debug\Question1.csproj.CoreCompileInputs.cache
+C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\Question1\obj\Debug\Question1.exe
+C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\Question1\obj\Debug\Question1.pdb
