@@ -1,0 +1,3 @@
+C:/Users/galax/CLionProjects/Question2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/galax/CLionProjects/Question2/cmake-build-debug/CMakeFiles/Question2.dir
+C:/Users/galax/CLionProjects/Question2/cmake-build-debug/CMakeFiles/edit_cache.dir

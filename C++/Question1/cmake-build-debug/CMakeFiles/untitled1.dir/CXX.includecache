@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/galax/CLionProjects/Question1/Question1/Main.cpp
+Rectangle.h
+C:/Users/galax/CLionProjects/Question1/Question1/Rectangle.h
+Point2D.h
+C:/Users/galax/CLionProjects/Question1/Question1/Point2D.h
+memory
+-
+
+C:/Users/galax/CLionProjects/Question1/Question1/Point2D.cpp
+Point2D.h
+C:/Users/galax/CLionProjects/Question1/Question1/Point2D.h
+
+C:/Users/galax/CLionProjects/Question1/Question1/Point2D.h
+iostream
+-
+
+C:/Users/galax/CLionProjects/Question1/Question1/Rectangle.cpp
+Rectangle.h
+C:/Users/galax/CLionProjects/Question1/Question1/Rectangle.h
+Point2D.h
+C:/Users/galax/CLionProjects/Question1/Question1/Point2D.h
+
+C:/Users/galax/CLionProjects/Question1/Question1/Rectangle.h
+string
+-
+vector
+-
+Point2D.h
+C:/Users/galax/CLionProjects/Question1/Question1/Point2D.h
+
