@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.16)
-project(Question2)
+cmake_minimum_required(VERSION 3.15)
+project(untitled)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Question2 main.cpp)
+add_executable(untitled main.cpp NumberFinder.cpp NumberFinder.h)

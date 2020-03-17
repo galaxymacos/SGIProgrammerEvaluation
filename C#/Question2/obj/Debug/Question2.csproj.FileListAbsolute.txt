@@ -4,3 +4,9 @@ C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\Question2\obj
 C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\Question2\obj\Debug\Question2.csproj.CoreCompileInputs.cache
 C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\Question2\obj\Debug\Question2.exe
 C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\Question2\obj\Debug\Question2.pdb
+C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C#\Question2\bin\Debug\Question2.exe
+C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C#\Question2\bin\Debug\Question2.pdb
+C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C#\Question2\obj\Debug\Question2.csprojAssemblyReference.cache
+C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C#\Question2\obj\Debug\Question2.csproj.CoreCompileInputs.cache
+C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C#\Question2\obj\Debug\Question2.exe
+C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C#\Question2\obj\Debug\Question2.pdb

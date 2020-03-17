@@ -1,6 +1,7 @@
 #include <iostream>
+#include "NumberFinder.h"
 
+using namespace std;
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    cout<< "The target number is "<<NumberFinder::GetNumberOfIndex(1500)<<endl;
 }
