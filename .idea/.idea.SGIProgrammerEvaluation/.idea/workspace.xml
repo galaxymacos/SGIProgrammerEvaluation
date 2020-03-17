@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="290d50da-eb85-43a8-8d6b-c9b17186d5ef" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SGIProgrammerEvaluation/Program.cs" />
+        <option value="$PROJECT_DIR$/SGIProgrammerEvaluation/Question2.cs" />
+        <option value="$PROJECT_DIR$/Question2/Question2.cs" />
+        <option value="$PROJECT_DIR$/SGIProgrammerEvaluation/Question1_Rectangle.cs" />
+        <option value="$PROJECT_DIR$/Question1/Program.cs" />
+        <option value="$PROJECT_DIR$/Question2/Program.cs" />
+        <option value="$PROJECT_DIR$/Question2/Tester.cs" />
+        <option value="$PROJECT_DIR$/Question2/NumberFinder.cs" />
+        <option value="$PROJECT_DIR$/Question1/Rectangle.cs" />
+        <option value="$PROJECT_DIR$/Question1/Tester.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZEnuExmMcMi7fnRa5zy75GM4i4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager" selected=".NET Project.Question2">
+    <configuration name="Question2" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Question2/bin/Debug/Question2.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Question2/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Question2/Question2.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.8" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="SGIProgrammerEvaluation" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Question1/Question1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.Question2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="290d50da-eb85-43a8-8d6b-c9b17186d5ef" name="Default Changelist" comment="" />
+      <created>1584413342152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584413342152</updated>
+      <workItem from="1584413350136" duration="3107000" />
+      <workItem from="1584417752213" duration="1240000" />
+      <workItem from="1584419010429" duration="1284000" />
+      <workItem from="1584420376983" duration="11058000" />
+      <workItem from="1584431835887" duration="1321000" />
+      <workItem from="1584457223527" duration="621000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state width="1665" height="240" key="GridCell.Tab.0.bottom" timestamp="1584433157833">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state width="1665" height="240" key="GridCell.Tab.0.bottom/-2560.0.1707.960/0.0.1707.960@0.0.1707.960" timestamp="1584433157833" />
+    <state width="1665" height="240" key="GridCell.Tab.0.center" timestamp="1584433157833">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state width="1665" height="240" key="GridCell.Tab.0.center/-2560.0.1707.960/0.0.1707.960@0.0.1707.960" timestamp="1584433157833" />
+    <state width="1665" height="240" key="GridCell.Tab.0.left" timestamp="1584433157833">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state width="1665" height="240" key="GridCell.Tab.0.left/-2560.0.1707.960/0.0.1707.960@0.0.1707.960" timestamp="1584433157833" />
+    <state width="1665" height="240" key="GridCell.Tab.0.right" timestamp="1584433157833">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state width="1665" height="240" key="GridCell.Tab.0.right/-2560.0.1707.960/0.0.1707.960@0.0.1707.960" timestamp="1584433157833" />
+    <state x="434" y="223" width="838" height="520" key="IDE.errors.dialog" timestamp="1584418981741">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="434" y="223" width="838" height="520" key="IDE.errors.dialog/-2560.0.1707.960/0.0.1707.960@0.0.1707.960" timestamp="1584418981741" />
+    <state x="446" y="212" key="Rider.ProjectTemplateDialog.Size" timestamp="1584419525563">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="446" y="212" key="Rider.ProjectTemplateDialog.Size/-2560.0.1707.960/0.0.1707.960@0.0.1707.960" timestamp="1584419525563" />
+    <state x="605" y="56" key="RiderGenerateDialog" timestamp="1584414973102">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="605" y="56" key="RiderGenerateDialog/-2560.0.1707.960/0.0.1707.960@0.0.1707.960" timestamp="1584414973102" />
+    <state x="516" y="205" width="672" height="678" key="search.everywhere.popup" timestamp="1584416382479">
+      <screen x="0" y="0" width="1707" height="960" />
+    </state>
+    <state x="516" y="205" width="672" height="678" key="search.everywhere.popup/-2560.0.1707.960/0.0.1707.960@0.0.1707.960" timestamp="1584416382479" />
+  </component>
+</project>

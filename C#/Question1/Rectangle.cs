@@ -76,20 +76,20 @@ namespace SGIProgrammerEvaluation
         /// Draw a rectangle based on an origin and its width and height (For example, if its width is 2, and height is -2, origin is 0,
         /// then the rectangle will have 4 of its vertices at (0,0),(2,0),(2,-2) and (0,-2) 
         /// </summary>
-        /// <param name="vertice">A vertice of the rectangle</param>
+        /// <param name="vertex">A vertice of the rectangle</param>
         /// <param name="_width">the horizontal extend of the horizontal value, if it is positive, it means that the rectangle extends in postive direction in x</param>
         /// <param name="_height">the vertical extend of the horizontal value, if it is positive, it means that the rectangle extends in postive direction in y</param>
-        public Rectangle(Point2D vertice, float _width, float _height)
+        public Rectangle(Point2D vertex, float _width, float _height)
         {
             if (Math.Abs(_width) < 0.0001f || Math.Abs(_height) < 0.0001f)
             {
                 throw new ArgumentException("The width or height of the rectangle can't be 0");
             }
             
-            coordinates.Add(vertice);
-            coordinates.Add(new Point2D(vertice.x, vertice.y+_height));
-            coordinates.Add(new Point2D(vertice.x+_width, vertice.y));
-            coordinates.Add(new Point2D(vertice.x+_width, vertice.y+_height));
+            coordinates.Add(vertex);
+            coordinates.Add(new Point2D(vertex.x, vertex.y+_height));
+            coordinates.Add(new Point2D(vertex.x+_width, vertex.y));
+            coordinates.Add(new Point2D(vertex.x+_width, vertex.y+_height));
         }
 
         public static bool Intersect(Rectangle rectangle1, Rectangle rectangle2)
