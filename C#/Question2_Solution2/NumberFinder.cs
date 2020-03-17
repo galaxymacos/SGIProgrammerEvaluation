@@ -9,15 +9,26 @@ namespace Question2_Solution2
 
         public NumberFinder()
         {
-            
             numbersToCheck.Add(new NumberClass(2));
             numbersToCheck.Add(new NumberClass(3));
             numbersToCheck.Add(new NumberClass(5));
         }
 
-        public long GetTargetNumber(int time)
+        public long GetTargetIndex(int time)
         {
-            time -= 5;
+            switch (time)
+            {
+                case 1: return 1;
+                case 2: return 2;
+                case 3: return 3;
+                case 4: return 4;
+                case 5: return 5;
+                default: return ReachTargetNumber(time - 5);
+            }
+        }
+
+        private long ReachTargetNumber(int time)
+        {
             for (long i = 0; i < time; i++)
             {
                 GetSmallestInheritor();

@@ -8,7 +8,7 @@ namespace Question2_Solution2
         public static void Main(string[] args)
         {
             NumberFinder numberFinder = new NumberFinder();
-            Console.WriteLine(numberFinder.GetTargetNumber(1500));
+            Console.WriteLine(numberFinder.GetTargetIndex(1500));
         }
     }
 }
