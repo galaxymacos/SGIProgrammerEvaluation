@@ -3,12 +3,12 @@
 namespace Question2_Solution2
 {
     
-    internal class Program
+    internal static class Tester
     {
         public static void Main(string[] args)
         {
             NumberFinder numberFinder = new NumberFinder();
-            Console.WriteLine(numberFinder.GetTargetIndex(1500));
+            Console.WriteLine(numberFinder.ReachTargetNumber(1500));
         }
     }
 }

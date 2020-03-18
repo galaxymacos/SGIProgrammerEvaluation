@@ -12,14 +12,11 @@ namespace Question2_Solution2
             numbersToCheck.Add(new NumberClass(1));
         }
 
-        public long GetTargetIndex(int time)
-        {
-                return ReachTargetNumber(time);
-        }
 
-        private long ReachTargetNumber(int time)
+        public long ReachTargetNumber(int time)
         {
             long result = 1;
+            
             for (long i = 0; i < time-1; i++)
             {
                 result = GetNextSmallestInheritor();
@@ -28,7 +25,8 @@ namespace Question2_Solution2
             return result;
 
         }
-        public long GetNextSmallestInheritor()
+
+        private long GetNextSmallestInheritor()
         {
             long smallestInheritor = -1;
             bool hasInitialized = false;

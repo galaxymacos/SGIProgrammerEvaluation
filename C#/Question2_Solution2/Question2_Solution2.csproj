@@ -40,7 +40,7 @@
     <ItemGroup>
         <Compile Include="NumberClass.cs" />
         <Compile Include="NumberFinder.cs" />
-        <Compile Include="Program.cs" />
+        <Compile Include="Tester.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
