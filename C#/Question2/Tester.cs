@@ -6,7 +6,8 @@ namespace Question2
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine($"The target number is "+NumberFinder.GetNumberOfIndex(1500));
+            Console.WriteLine($"The target number is "+NumberFinder.GetNumberOfIndex(1200));
+            
             
         }
 

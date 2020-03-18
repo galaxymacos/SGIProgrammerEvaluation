@@ -9,34 +9,26 @@ namespace Question2_Solution2
 
         public NumberFinder()
         {
-            numbersToCheck.Add(new NumberClass(2));
-            numbersToCheck.Add(new NumberClass(3));
-            numbersToCheck.Add(new NumberClass(5));
+            numbersToCheck.Add(new NumberClass(1));
         }
 
         public long GetTargetIndex(int time)
         {
-            switch (time)
-            {
-                case 1: return 1;
-                case 2: return 2;
-                case 3: return 3;
-                case 4: return 4;
-                case 5: return 5;
-                default: return ReachTargetNumber(time - 5);
-            }
+                return ReachTargetNumber(time);
         }
 
         private long ReachTargetNumber(int time)
         {
-            for (long i = 0; i < time; i++)
+            long result = 1;
+            for (long i = 0; i < time-1; i++)
             {
-                GetSmallestInheritor();
+                result = GetNextSmallestInheritor();
             }
 
-            return GetSmallestInheritor();
+            return result;
+
         }
-        public long GetSmallestInheritor()
+        public long GetNextSmallestInheritor()
         {
             long smallestInheritor = -1;
             bool hasInitialized = false;
