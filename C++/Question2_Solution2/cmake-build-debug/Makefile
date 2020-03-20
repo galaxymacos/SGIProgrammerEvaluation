@@ -47,24 +47,13 @@ RM = C:\Users\galax\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6911.21\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2
+CMAKE_SOURCE_DIR = C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2_Solution2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2_Solution2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\galax\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6911.21\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -77,11 +66,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	C:\Users\galax\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6911.21\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2\cmake-build-debug\CMakeFiles C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2_Solution2\cmake-build-debug\CMakeFiles C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2_Solution2\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2_Solution2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled
+# Target rules for targets named Question2_Solution2
 
 # Build rule for target.
-untitled: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 untitled
-.PHONY : untitled
+Question2_Solution2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Question2_Solution2
+.PHONY : Question2_Solution2
 
 # fast build rule for target.
-untitled/fast:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
-.PHONY : untitled/fast
+Question2_Solution2/fast:
+	$(MAKE) -f CMakeFiles\Question2_Solution2.dir\build.make CMakeFiles/Question2_Solution2.dir/build
+.PHONY : Question2_Solution2/fast
+
+NumberClass.obj: NumberClass.cpp.obj
+
+.PHONY : NumberClass.obj
+
+# target to build an object file
+NumberClass.cpp.obj:
+	$(MAKE) -f CMakeFiles\Question2_Solution2.dir\build.make CMakeFiles/Question2_Solution2.dir/NumberClass.cpp.obj
+.PHONY : NumberClass.cpp.obj
+
+NumberClass.i: NumberClass.cpp.i
+
+.PHONY : NumberClass.i
+
+# target to preprocess a source file
+NumberClass.cpp.i:
+	$(MAKE) -f CMakeFiles\Question2_Solution2.dir\build.make CMakeFiles/Question2_Solution2.dir/NumberClass.cpp.i
+.PHONY : NumberClass.cpp.i
+
+NumberClass.s: NumberClass.cpp.s
+
+.PHONY : NumberClass.s
+
+# target to generate assembly for a file
+NumberClass.cpp.s:
+	$(MAKE) -f CMakeFiles\Question2_Solution2.dir\build.make CMakeFiles/Question2_Solution2.dir/NumberClass.cpp.s
+.PHONY : NumberClass.cpp.s
 
 NumberFinder.obj: NumberFinder.cpp.obj
 
@@ -128,7 +155,7 @@ NumberFinder.obj: NumberFinder.cpp.obj
 
 # target to build an object file
 NumberFinder.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NumberFinder.cpp.obj
+	$(MAKE) -f CMakeFiles\Question2_Solution2.dir\build.make CMakeFiles/Question2_Solution2.dir/NumberFinder.cpp.obj
 .PHONY : NumberFinder.cpp.obj
 
 NumberFinder.i: NumberFinder.cpp.i
@@ -137,7 +164,7 @@ NumberFinder.i: NumberFinder.cpp.i
 
 # target to preprocess a source file
 NumberFinder.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NumberFinder.cpp.i
+	$(MAKE) -f CMakeFiles\Question2_Solution2.dir\build.make CMakeFiles/Question2_Solution2.dir/NumberFinder.cpp.i
 .PHONY : NumberFinder.cpp.i
 
 NumberFinder.s: NumberFinder.cpp.s
@@ -146,7 +173,7 @@ NumberFinder.s: NumberFinder.cpp.s
 
 # target to generate assembly for a file
 NumberFinder.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/NumberFinder.cpp.s
+	$(MAKE) -f CMakeFiles\Question2_Solution2.dir\build.make CMakeFiles/Question2_Solution2.dir/NumberFinder.cpp.s
 .PHONY : NumberFinder.cpp.s
 
 main.obj: main.cpp.obj
@@ -155,7 +182,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\Question2_Solution2.dir\build.make CMakeFiles/Question2_Solution2.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -164,7 +191,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\Question2_Solution2.dir\build.make CMakeFiles/Question2_Solution2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -173,7 +200,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\Question2_Solution2.dir\build.make CMakeFiles/Question2_Solution2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -182,9 +209,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... edit_cache
-	@echo ... untitled
 	@echo ... rebuild_cache
+	@echo ... Question2_Solution2
+	@echo ... edit_cache
+	@echo ... NumberClass.obj
+	@echo ... NumberClass.i
+	@echo ... NumberClass.s
 	@echo ... NumberFinder.obj
 	@echo ... NumberFinder.i
 	@echo ... NumberFinder.s

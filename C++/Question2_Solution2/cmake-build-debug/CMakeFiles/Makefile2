@@ -43,21 +43,21 @@ RM = C:\Users\galax\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6911.21\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2
+CMAKE_SOURCE_DIR = C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2_Solution2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2_Solution2\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/untitled.dir/all
+all: CMakeFiles/Question2_Solution2.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/untitled.dir/clean
+clean: CMakeFiles/Question2_Solution2.dir/clean
 
 .PHONY : clean
 
@@ -67,31 +67,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/untitled.dir
+# Target rules for target CMakeFiles/Question2_Solution2.dir
 
 # All Build rule for target.
-CMakeFiles/untitled.dir/all:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/depend
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target untitled"
-.PHONY : CMakeFiles/untitled.dir/all
+CMakeFiles/Question2_Solution2.dir/all:
+	$(MAKE) -f CMakeFiles\Question2_Solution2.dir\build.make CMakeFiles/Question2_Solution2.dir/depend
+	$(MAKE) -f CMakeFiles\Question2_Solution2.dir\build.make CMakeFiles/Question2_Solution2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2_Solution2\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target Question2_Solution2"
+.PHONY : CMakeFiles/Question2_Solution2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/untitled.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2\cmake-build-debug\CMakeFiles 3
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/untitled.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/untitled.dir/rule
+CMakeFiles/Question2_Solution2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2_Solution2\cmake-build-debug\CMakeFiles 4
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Question2_Solution2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\galax\OneDrive\Courses\Internship\SGIProgrammerEvaluation\C++\Question2_Solution2\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Question2_Solution2.dir/rule
 
 # Convenience name for target.
-untitled: CMakeFiles/untitled.dir/rule
+Question2_Solution2: CMakeFiles/Question2_Solution2.dir/rule
 
-.PHONY : untitled
+.PHONY : Question2_Solution2
 
 # clean rule for target.
-CMakeFiles/untitled.dir/clean:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/clean
-.PHONY : CMakeFiles/untitled.dir/clean
+CMakeFiles/Question2_Solution2.dir/clean:
+	$(MAKE) -f CMakeFiles\Question2_Solution2.dir\build.make CMakeFiles/Question2_Solution2.dir/clean
+.PHONY : CMakeFiles/Question2_Solution2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

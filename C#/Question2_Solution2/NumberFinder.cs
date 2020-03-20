@@ -5,7 +5,7 @@ namespace Question2_Solution2
 {
     public class NumberFinder
     {
-        private List<NumberClass> numbersToCheck = new List<NumberClass>();
+        private readonly List<NumberClass> numbersToCheck = new List<NumberClass>();
 
         public NumberFinder()
         {
@@ -44,7 +44,7 @@ namespace Question2_Solution2
                     if (numberToCheck.SmallestInheritor() < smallestInheritor)
                     {
                         smallestInheritor = numberToCheck.SmallestInheritor();
-                        numbersToMovePointer = new List<NumberClass>();
+                        numbersToMovePointer.Clear();
                         numbersToMovePointer.Add(numberToCheck);
                     }
                     else if (numberToCheck.SmallestInheritor() == smallestInheritor)

@@ -1,0 +1,3 @@
+C:/Users/galax/OneDrive/Courses/Internship/SGIProgrammerEvaluation/C++/Question2_Solution2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/galax/OneDrive/Courses/Internship/SGIProgrammerEvaluation/C++/Question2_Solution2/cmake-build-debug/CMakeFiles/Question2_Solution2.dir
+C:/Users/galax/OneDrive/Courses/Internship/SGIProgrammerEvaluation/C++/Question2_Solution2/cmake-build-debug/CMakeFiles/edit_cache.dir

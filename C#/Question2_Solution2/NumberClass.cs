@@ -11,9 +11,8 @@ namespace Question2_Solution2
         }
 
 
-        private int pointerIndex = 0;
-
-        private long targetNumber;
+        private int pointerIndex;
+        private readonly long targetNumber;
 
         private void InitializeList()
         {
@@ -28,12 +27,7 @@ namespace Question2_Solution2
         public bool MovePointer()
         {
             pointerIndex++;
-            if (pointerIndex >= ListToMultiple.Count)
-            {
-                return false;
-            }
-
-            return true;
+            return pointerIndex < ListToMultiple.Count;
         }
 
         private List<long> listToMultiple;

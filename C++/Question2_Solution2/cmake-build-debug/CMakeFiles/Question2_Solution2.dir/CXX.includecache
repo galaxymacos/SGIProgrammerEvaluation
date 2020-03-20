@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/galax/OneDrive/Courses/Internship/SGIProgrammerEvaluation/C++/Question2_Solution2/NumberClass.h
+vector
+-
+
+C:/Users/galax/OneDrive/Courses/Internship/SGIProgrammerEvaluation/C++/Question2_Solution2/NumberFinder.cpp
+iostream
+-
+NumberFinder.h
+C:/Users/galax/OneDrive/Courses/Internship/SGIProgrammerEvaluation/C++/Question2_Solution2/NumberFinder.h
+
+C:/Users/galax/OneDrive/Courses/Internship/SGIProgrammerEvaluation/C++/Question2_Solution2/NumberFinder.h
+vector
+-
+NumberClass.h
+C:/Users/galax/OneDrive/Courses/Internship/SGIProgrammerEvaluation/C++/Question2_Solution2/NumberClass.h
+
+C:/Users/galax/OneDrive/Courses/Internship/SGIProgrammerEvaluation/C++/Question2_Solution2/main.cpp
+iostream
+-
+NumberFinder.h
+C:/Users/galax/OneDrive/Courses/Internship/SGIProgrammerEvaluation/C++/Question2_Solution2/NumberFinder.h
+
